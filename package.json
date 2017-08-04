@@ -1,0 +1,19 @@
+{
+  "name": "photolab",
+  "version": "1.0.0",
+  "description": "Ejercicio Evaluado Gulp - Photolab",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagicary/photolab.git"
+  },
+  "author": "Claudia Rivera Salinas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sagicary/photolab/issues"
+  },
+  "homepage": "https://github.com/sagicary/photolab#readme"
+}
