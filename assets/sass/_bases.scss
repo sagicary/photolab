@@ -1,3 +1,4 @@
+/*ESTILOS NAV*/
 .navbar-center{
 	position: relative;
 	left: 30%;
@@ -7,13 +8,6 @@
 	background-color: $transparente;
 	border: none;
 }
-.fondo{
-	background-image: url(../../dist/img/bg1.jpg);
-	background-repeat: no-repeat;
-	width: 100%;
-	background-position: center bottom;
-	background-size: cover;
-}
 .navbar-default .navbar-nav>li>a, .navbar-default .navbar-text{
 	color: $blanco;
 	font-weight: bold;
@@ -22,6 +16,14 @@
 .navbar-default .navbar-nav>li>a:hover{
 	color: $blanco;
 	font-weight: normal;
+}
+/*ESTILOS SECCION 1 TEXTO y FONDO*/
+.fondo{
+	background-image: url(../../dist/img/bg1.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	background-position: center bottom;
+	background-size: cover;
 }
 .texto{
 	text-align: center;
@@ -42,5 +44,60 @@
 		padding: 10px;
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+}
+/*ESTILOS SECCION 2*/
+.dos{
+	padding-bottom: 30px;
+	background-color: $fondo;
+	.texto{
+		padding:50px;
+		padding-top: 70px;
+		padding-right: 150px;
+		h4{
+			color:$colorboton;
+			text-align: left;
+			font-weight: bold;
+			padding-bottom:20px;
+		}
+		
+
+		button{
+			position: absolute;
+			left: 50px;
+		}
+	}
+	.imgfondo{
+		padding: 50px;
+		background-image: url(../../dist/img/hand.png);
+		background-repeat: no-repeat;
+		width: 50%;
+		height: 65vh;
+		background-position: center top;
+		background-size: cover;
+		margin-top: 30px;
+		padding-right: 50px;
+	}
+}
+.tres{
+	.texto{
+		padding-rigth: 150px;
+		h4{
+			color:$colorboton;
+			text-align: left;
+			font-weight: bold;
+			padding-bottom:20px;
+		}
+		p{
+			text-align: left;
+			padding-bottom:20px;
+		}
+		button{
+			position: absolute;
+			left: 20px;
+		}
+	}
+	.img2{
+		margin-top:20px;
 	}
 }
